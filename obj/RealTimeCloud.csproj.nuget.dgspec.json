@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/satya/Projects/PoC/IglooConf-master/RealTimeCloud/RealTimeCloud.csproj": {}
+  },
+  "projects": {
+    "/Users/satya/Projects/PoC/IglooConf-master/RealTimeCloud/RealTimeCloud.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/satya/Projects/PoC/IglooConf-master/RealTimeCloud/RealTimeCloud.csproj",
+        "projectName": "RealTimeCloud",
+        "projectPath": "/Users/satya/Projects/PoC/IglooConf-master/RealTimeCloud/RealTimeCloud.csproj",
+        "packagesPath": "/Users/satya/.nuget/packages/",
+        "outputPath": "/Users/satya/Projects/PoC/IglooConf-master/RealTimeCloud/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/satya/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Azure.SignalR": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
